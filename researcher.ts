@@ -193,7 +193,7 @@ const main = async () => {
   const result = await deepAgent.invoke(
     {
       messages: [
-        new HumanMessage("Who is the GOAT? Messi or Ronaldo?")
+        new HumanMessage("What are deepagents?")
       ],
     },
     config,
